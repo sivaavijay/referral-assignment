@@ -80,11 +80,11 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'emp_database',
-        'USER': 'sivaa',
-        'PASSWORD': 'Admin@2024',
-        'HOST': 'dbserveremp.mysql.database.azure.com',  
-        'PORT': '3306'
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',  
+        'PORT': ''
    
     }
 }
